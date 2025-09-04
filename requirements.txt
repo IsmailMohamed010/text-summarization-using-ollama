@@ -1,0 +1,5 @@
+flask
+ollama
+pymupdf
+python-docx
+python-pptx
