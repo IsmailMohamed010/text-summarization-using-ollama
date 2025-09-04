@@ -44,11 +44,11 @@ All dependencies are listed in [`requirements.txt`](./requirements.txt).
 
 ```bash
 .
-├── API.py
 ├── app.py
+├── document_utils.py
 ├── uploaded_files/
 ```
 
-- **[`API.py`](./API.py)** – Defines the Flask API endpoints (`/summarize`, `/analyze`) and manages request validation and file uploads.  
-- **[`app.py`](./app.py)** – Handles text summarization, question answering, and extraction of text from different document formats.  
+- **[`app.py`](./app.py)** – Defines the Flask API endpoints (`/summarize`, `/analyze`) and manages request validation and file uploads.  
+- **[`document_utils.py`](./document_utils.py)** – Handles text summarization, question answering, and extraction of text from different document formats.  
 - **`uploaded_files/`** – Directory where uploaded documents are stored before being processed.  
